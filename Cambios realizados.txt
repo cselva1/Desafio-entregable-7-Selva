@@ -1,0 +1,8 @@
+Desafío entregable 7 - Cristian Selva	
+
+Cambios realizados:
+
+1)Se agregó un extend, mixin y map
+2)Se agregó .gitignore para la carpeta node_modules.
+3)SEO: Se agregaron meta-description y meta-keywords a cada página HTML.
+4)Se quitó camelCase del nombre de 1 HTML

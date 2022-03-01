@@ -1,3 +1,20 @@
+//IMPORT
+@import "usercard";
+@import "tipografia";
+@import "mixin";
+
+.principal{
+   
+    margin:15px 0;
+}
+.excursion, .testimonio, .temporada, .nosotros{
+    margin:15px 0;
+}
+
+.img-logo{
+    width:85px;
+    }
+
 // Variables
 
 #contenido {
@@ -6,7 +23,32 @@
     
 }
 
+.bigicon {
+    font-size: 35px;
+    color: red;
+}
 
+.subtitulo{
+    text-align:center;
+    justify-content: center;
+}
+
+
+#contact{
+    font-size:.7rem;
+    
+}
+#espec{
+    font-size:0.9rem;
+}
+#derecho{
+    
+    height:3%;
+}
+
+.col{
+    margin-top:10px;
+}
 
 .conoce_ushuaia {
     background-image: url("./images/invierno1.jpg"); 
@@ -24,26 +66,14 @@
     
 }
 
-
-
-.logo{
-    padding: 0.80px;
-    margin-left: 35px; 
-     
+.btn {
+    display: flex;
+    justify-content: center;
 }
+.card {
 
-.img svg {
-    
-    width: 100px;
+    text-align:center;
 }
-
-//IMPORT
-@import "tipografia";
-
-@import "mapa";
-
-@import "mixin-extend";
-
 
 
 
@@ -74,3 +104,32 @@
         }
     }
 }
+
+.tcard{
+   
+   border-radius:4px;
+   padding:16px;
+   box-shadow:1px 1px 12px 0px rgba(0, 0, 0, 0.15);
+   
+}
+
+.avatar {
+    width:125px;
+    height:150px;
+    border-radius:50%;
+    padding:10px 0px;
+}
+
+.titletest {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing:5px;
+    opacity:0.85;
+}
+
+.small {
+    font-weight: 400;
+    font-size:12px;
+    opacity:0.75;
+}
+
