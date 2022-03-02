@@ -1,7 +1,8 @@
 //IMPORT
-@import "usercard";
+@import "extend";
 @import "tipografia";
 @import "mixin";
+@import "map";
 
 .principal{
    
@@ -76,7 +77,9 @@
 }
 
 
-
+.nosotros{
+    background-color:map-get($map: $paletaColor, $key: 'colorCrema');
+}
 
 
 
